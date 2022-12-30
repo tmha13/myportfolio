@@ -1,38 +1,102 @@
-.App {
+html { 
+  background: url(images/abstract.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* html {
+  background-color: white;
+} */
+
+.title {
+  text-align: center;
+  font-size: 60px;
+  color: teal;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  font-family: Montserrat;
+}
+
+.welcome {
+  text-align: center;
+  margin-top: 20%;
+}
+
+.container {
+  align-items: center; 
+  width: auto;
+}
+
+.about-me {
+  color: black;
+  font-family: Montserrat;
+  font-size: 16pt;
+  margin: 400px;
+  margin-top: 50px;
+}
+
+.pfp {
+  display:block;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.row {
+  display: block;
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.project {
+  color: orange;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: teal;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p {
+  padding: 6px;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  color: darkgoldenrod
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration:  none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 900;
+  color: teal;
+}
+
+li {
+  margin: 15px;
+}
+
+img.head {
+  text-align: center;
+  margin:auto;
 }

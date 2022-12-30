@@ -1,0 +1,21 @@
+.project-box {
+  border-style: inset;
+  border-radius: 15px;
+  box-shadow: 0 20px 30px rgba(0,0,0,.07);
+  border-right-color: rgba(0, 0, 0, 0.03);
+  border-top-color: rgba(0, 0, 0, 0.03);
+  border-bottom-color: rgba(0, 0, 0, 0.03);
+  border-left-color: rgba(0, 0, 0, 0.03);
+  width: 250px;
+  height: 250px;
+  color: teal;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  margin: 30px;
+}
+
+.logo {
+  margin-top: 10px;
+  padding-top: 10px;
+}
