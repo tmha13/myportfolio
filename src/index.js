@@ -8,6 +8,8 @@ import Projects from './pages/Projects';
 import reportWebVitals from './reportWebVitals';
 import Vanilla from './pages/Vanilla';
 import Cardouts from './pages/Cardouts';
+import Cryptogram from './pages/Cryptogram';
+import Contact from './pages/Contact';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +31,14 @@ const router = createBrowserRouter([
   {
     path: "/cardouts",
     element: <Cardouts />
+  },
+  {
+    path: "/cryptogram",
+    element: <Cryptogram />
+  },
+  {
+    path: "/contact",
+    element: <Contact />
   }
 ]);
 

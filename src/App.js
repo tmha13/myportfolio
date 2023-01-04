@@ -11,7 +11,8 @@ function App() {
         &nbsp;|&nbsp;
         <a href="/projects" class="button">Projects </a>
         &nbsp;|&nbsp;
-        <button>Contact</button>
+        <a href="/contact" class="button">Contact </a>
+        &nbsp;|&nbsp;
       </div>
     </>
   );

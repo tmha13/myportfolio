@@ -27,7 +27,7 @@ export default function Projects() {
       </div>
       <div className="row">
         <ProjectBox icon={JavaLogo} title={"Cardouts"} text={cardoutsText} link="/cardouts"></ProjectBox>
-        <ProjectBox icon={JavaLogo} title={"Cryptogram"} text={CryptogramText}></ProjectBox>
+        <ProjectBox icon={JavaLogo} title={"Cryptogram"} text={CryptogramText} link="/cryptogram"></ProjectBox>
         <ProjectBox icon={NodeLogo} title={"Task-Manager"} text={taskText} link="https://github.com/tmha13/task-manager-api"></ProjectBox>
       </div>
     </div>
